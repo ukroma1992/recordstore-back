@@ -1,24 +1,12 @@
-# README
+# Ruby on Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Простое api написаное на Ruby on Rails. Для регистрации было использовано jwt(JSON Web Token)
 
-Things you may want to cover:
+#### Здесь используеться:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- `Rails 5.2.2`
+- `Ruby 2.5.3`
+- Gem `bcrypt 3.1.7`
+- Gem `rack-cors`
+- Gem [`redis 4.0`](https://github.com/redis/redis-rb)
+- Gem [`jwt-sessions`](https://github.com/tuwukee/jwt_sessions)
